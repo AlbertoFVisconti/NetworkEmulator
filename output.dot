@@ -1,0 +1,10 @@
+graph Network {
+	r1 [shape=circle];
+	r2 [shape=circle];
+	r3 [shape=circle];
+	r1 -- r2 [label="5"];
+	r1 -- r2 [label="2"];
+	r1 -- r3 [label="2"];
+	r2 -- r3 [label="2"];
+	r1 -- r3 [label="1"];
+}
